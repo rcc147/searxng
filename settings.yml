@@ -9,6 +9,6 @@ server:
 search:
   safe_search: 0
   autocomplete: "google"
-    formats:
+  formats:
     - html
     - json
