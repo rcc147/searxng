@@ -1,0 +1,11 @@
+use_default_settings: true
+
+server:
+  port: 8080
+  bind_address: "0.0.0.0"
+  secret_key: "placeholder_key" # Render will overwrite this via Env Variables
+  limiter: false
+
+search:
+  safe_search: 0
+  autocomplete: "google"
